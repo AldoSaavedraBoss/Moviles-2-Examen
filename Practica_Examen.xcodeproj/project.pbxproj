@@ -13,6 +13,9 @@
 		28CBC0832720793000A99560 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28CBC0812720793000A99560 /* Main.storyboard */; };
 		28CBC0852720793200A99560 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28CBC0842720793200A99560 /* Assets.xcassets */; };
 		28CBC0882720793200A99560 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28CBC0862720793200A99560 /* LaunchScreen.storyboard */; };
+		28D8E4D42720D53500ACA8A4 /* RegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D8E4D32720D53500ACA8A4 /* RegistroViewController.swift */; };
+		28D8E4DB2720E0D300ACA8A4 /* RecuperarContrasenaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D8E4DA2720E0D300ACA8A4 /* RecuperarContrasenaViewController.swift */; };
+		28D8E4DE2720EB9F00ACA8A4 /* UsuarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D8E4DD2720EB9F00ACA8A4 /* UsuarioViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		28CBC0842720793200A99560 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28CBC0872720793200A99560 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28CBC0892720793200A99560 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28D8E4D32720D53500ACA8A4 /* RegistroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroViewController.swift; sourceTree = "<group>"; };
+		28D8E4DA2720E0D300ACA8A4 /* RecuperarContrasenaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecuperarContrasenaViewController.swift; sourceTree = "<group>"; };
+		28D8E4DD2720EB9F00ACA8A4 /* UsuarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuarioViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +66,12 @@
 				28CBC07D2720793000A99560 /* SceneDelegate.swift */,
 				28CBC07F2720793000A99560 /* ViewController.swift */,
 				28CBC0812720793000A99560 /* Main.storyboard */,
+				28D8E4DD2720EB9F00ACA8A4 /* UsuarioViewController.swift */,
+				28D8E4DA2720E0D300ACA8A4 /* RecuperarContrasenaViewController.swift */,
 				28CBC0842720793200A99560 /* Assets.xcassets */,
 				28CBC0862720793200A99560 /* LaunchScreen.storyboard */,
 				28CBC0892720793200A99560 /* Info.plist */,
+				28D8E4D32720D53500ACA8A4 /* RegistroViewController.swift */,
 			);
 			path = Practica_Examen;
 			sourceTree = "<group>";
@@ -138,8 +147,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				28CBC0802720793000A99560 /* ViewController.swift in Sources */,
+				28D8E4D42720D53500ACA8A4 /* RegistroViewController.swift in Sources */,
+				28D8E4DB2720E0D300ACA8A4 /* RecuperarContrasenaViewController.swift in Sources */,
 				28CBC07C2720793000A99560 /* AppDelegate.swift in Sources */,
 				28CBC07E2720793000A99560 /* SceneDelegate.swift in Sources */,
+				28D8E4DE2720EB9F00ACA8A4 /* UsuarioViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
